@@ -187,6 +187,7 @@ app.put('/wands/:id', async (req, res) => {
 
 
 
+
 //inicializar o servidor
 app.listen(port, () => {
     console.log(`Servidor esta rodando em http://localhost:${port}`);
